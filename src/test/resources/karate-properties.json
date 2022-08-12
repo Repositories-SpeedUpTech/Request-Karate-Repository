@@ -1,5 +1,7 @@
 {
   "dev": {
-    "url": "https://reqres.in/api/"
+    "url": "https://reqres.in/api/",
+    "name": "morpheus",
+    "job": "leader"
   }
 }
