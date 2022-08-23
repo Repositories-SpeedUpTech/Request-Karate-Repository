@@ -36,7 +36,7 @@
     <build>
         <testResources>
             <testResource>
-                <directory>Request-Karate-Repository/src/test/resources</directory>
+                <directory>src/test/resources</directory>
                 <excludes>
                     <exclude>**/*.java</exclude>
                 </excludes>
