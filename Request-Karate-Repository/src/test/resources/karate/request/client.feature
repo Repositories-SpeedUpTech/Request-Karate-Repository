@@ -33,5 +33,19 @@ Feature: Service client GET
       | "Miguel" |
 
 
+  Scenario Outline: Validate the email using unsopported data types
+
+    Given path 'users',<email>
+    When method get
+    Then status 404
+
+    Examples:
+      | email     |
+      |  12345    |
+      | "@##$"    |
+      | "Test123" |
+
+
+
 
 

@@ -15,3 +15,16 @@ Feature: Service client PUT
     When method put
     Then status 200
     And match response == responsePut
+
+  Scenario Outline:Update a pet with incorrect data
+
+    Given path 'users'
+    When request <id>
+    And method put
+    Then status 404
+
+    Examples:
+      | id     |
+      | "hola" |
+      | 225    |
+      | ""     |

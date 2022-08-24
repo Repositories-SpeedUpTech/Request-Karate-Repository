@@ -7,5 +7,6 @@ public class Update {
     @Karate.Test
     Karate testSample(){
         return Karate.run("classpath:karate/request/update.feature").relativeTo(getClass());
+
     }
 }
