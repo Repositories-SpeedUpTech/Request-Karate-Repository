@@ -1,31 +1,39 @@
-:herb: DESCRIPCIÓN DEL PROYECTO: :herb:
+## TABLA DE CONTENIDO
+1. [DESCRIPCIÓN DEL PROYECTO :herb:](#descripción-del-proyecto)
+
+***
+# DESCRIPCIÓN DEL PROYECTO:    
 
 En este proyecto se realizarán pruebas con Karate para probar los diversos Endpoints de la siguiente API: "https://reqres.in/api/" :alien:
 
-Los Endpoints que se probarán son los siguientes:
-#
-:boom: Get: "https://reqres.in/api//users/2", sirve para traer la información del usuario que ha sido registrado.
-# 
-:boom: Post: "https://reqres.in/api//users", sirve para que la información del usuario sea enviada a la base de datos.
-# 
-:boom: Delete: "https://reqres.in/api//users/{id}", sirve para que la información del usuario sea eliminada de la base de datos.
-# 
-:boom: Put: "https://reqres.in/api//users{id}", sirve para que la información del usuario sea actualizada en la base de datos.
-# 
+Los **Endpoints** que se probarán son los siguientes:
+
+- _:boom: Get: "https://reqres.in/api//users/2", sirve para traer la información del usuario que ha sido registrado._
+ 
+- :boom: Post: "https://reqres.in/api//users", sirve para que la información del usuario sea enviada a la base de datos.
+
+- :boom: Delete: "https://reqres.in/api//users/{id}", sirve para que la información del usuario sea eliminada de la base de datos.
+
+- :boom: Put: "https://reqres.in/api//users{id}", sirve para que la información del usuario sea actualizada en la base de datos.
+
 :calling: A TENER EN CUENTA: :calling:
 
 Con el fin de aplicar buenas prácticas se decidió utilizar los siguientes patrones de diseño:
-#
-:capital_abcd: Patrón Objet Model  
-#
-:capital_abcd: Patrón ScreenPlay
-#
+
+- :capital_abcd: Patrón Objet Model  
+
+- :capital_abcd: Patrón ScreenPlay
+
 Y además se hizo uso de :recycle: Programación orientada a objetos :recycle:
 #
-
+***
 :violin: PRERREQUISITOS: :violin:
 
 Para poder ejecutar el proyecto se requieren las siguientes especificaciones:
+* Java
+* Maven
+- Postman
+- Intellij
 #
 :heavy_check_mark: Java con la versión de 1.8
 #
@@ -73,3 +81,13 @@ Por último, si queremos ver los reportes desde el navegador seguimos los siguie
 Ismael Alexander Carvajal González
 
 
+|Encabezado 1| Encabezado 2| Encabezado 3
+|:--------------|:-------------:|:-------------:|
+|Java           |Intellij|Maven|
+
+```
+$ git clone https://example.com
+$ cd ../path/to/the/file
+$ npm install
+$ npm start
+```
