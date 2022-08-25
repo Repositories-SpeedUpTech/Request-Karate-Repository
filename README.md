@@ -2,7 +2,7 @@
 
 En este proyecto vamos a desarrollar pruebas en Karate de la siguiente API: "https://reqres.in/api/" :alien:
 
-Y se van a probar los siguientes Endpoints:
+En el mismo se probarán los siguientes Endpoints con el fin de conseguir, enviar, actualizar y eliminar la información del usuario :
 #
 :boom: Get: "https://reqres.in/api//users/2"
 # 
@@ -70,8 +70,8 @@ Por último, si queremos ver los reportes desde el navegador seguimos los siguie
 
 #
 
-:boy:AUTOR::boy:
-#
+:man:AUTOR::man:
+
 Ismael Alexander Carvajal González
 
 
