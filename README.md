@@ -20,8 +20,8 @@ Con el fin de aplicar buenas prácticas se decidió utilizar los siguientes patr
 :capital_abcd: Patrón Objet Model (POM) 
 #
 :musical_score: Patrón ScreenPlay
-
-Y además se hizo uso de la programación orientada a objetos en la estructura del código.
+#
+Y además se hizo uso de :recycle: la programación orientada a objetos en la estructura del código.
 #
 #
 
