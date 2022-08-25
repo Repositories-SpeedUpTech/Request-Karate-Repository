@@ -55,8 +55,23 @@ Para ejecutar cualquier feature individual se requiere correr el Runners corresp
 :soon: Delete.java  => delete.feature
 #
 :soon: Update.java  => update.feature
-
-Por otro lado, si queremos ejecutar todas las features de manera paralela ejecutamos la siguiente clase Java:
+#
+Por otro lado, si queremos ejecutar todas las features de manera paralela ejecutamos la siguiente clase de Java:
 #
 :on: AllFeaturesTest.java
+#
+Por último, si queremos ver los reportes desde el navegador seguimos los siguientes pasos:
+#
+:white_circle: Nos dirigimos a la carpeta Target y la desplegamos
+#
+:white_circle:  Desplegamos la carpeta "Cucumber-html-reports"
+#
+:white_circle: Dar click derecho al archivo "overview-features.html", seleccionar la opción "Open in", luego "Browser" y seleccionar el navegador de preferencia.
+
+#
+
+:boy:AUTOR::boy:
+#
+Ismael Alexander Carvajal González
+
 
