@@ -26,6 +26,7 @@ Y además se hizo uso de :recycle: la programación orientada a objetos en la es
 #
 
 :violin: PRERREQUISITOS: :violin:
+
 Para poder ejecutar el proyecto se requieren las siguientes especificaciones:
 
 :heavy_check_mark: Java con la versión de 1.8
