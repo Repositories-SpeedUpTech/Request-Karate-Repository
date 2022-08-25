@@ -15,5 +15,5 @@ Por otro lado, vamos a probar los siguientes Endpoints:
 
 :calling: A TENER EN CUENTA: :calling:
 
-
+Con el fin de aplicar buenas prácticas se decidió utilizar patrones de diseño como el :capital_abcd: Objet Model (POM) y el :musical_score: ScreenPlay
 
