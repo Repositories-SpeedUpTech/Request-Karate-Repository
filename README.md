@@ -15,5 +15,13 @@ Por otro lado, vamos a probar los siguientes Endpoints:
 
 :calling: A TENER EN CUENTA: :calling:
 
-Con el fin de aplicar buenas prácticas se decidió utilizar patrones de diseño como el :capital_abcd: Objet Model (POM) y el :musical_score: ScreenPlay
+Con el fin de aplicar buenas prácticas se decidió utilizar los siguientes patrones de diseño:
+#
+:capital_abcd: Patrón Objet Model (POM) 
+#
+:musical_score: Patrón ScreenPlay
+
+Y además se hizo uso de la programación orientada a objetos en la estructura del código.
+
+:violin: PRERREQUISITOS: :violin:
 
