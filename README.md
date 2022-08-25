@@ -1,16 +1,16 @@
 :herb: DESCRIPCIÓN DEL PROYECTO: :herb:
 
-En este proyecto se desarrollarán pruebas con Karate para probar los diversos Endpoints de la siguiente API: "https://reqres.in/api/" :alien:
+En este proyecto se realizarán pruebas con Karate para probar los diversos Endpoints de la siguiente API: "https://reqres.in/api/" :alien:
 
 Los Endpoints que se probarán son los siguientes:
 #
 :boom: Get: "https://reqres.in/api//users/2", sirve para traer la información del usuario que ha sido registrado.
 # 
-:boom: Post: "https://reqres.in/api//users", sirve para enviar la información del usuario a la base de datos.
+:boom: Post: "https://reqres.in/api//users", sirve para que la información del usuario sea enviada a la base de datos.
 # 
-:boom: Delete: "https://reqres.in/api//users/{id}", sirve para eliminar la información del usuario de la base de datos.
+:boom: Delete: "https://reqres.in/api//users/{id}", sirve para que la información del usuario sea eliminada de la base de datos.
 # 
-:boom: Put: "https://reqres.in/api//users{id}", sirve para actualizar la información del usuario en la base de datos.
+:boom: Put: "https://reqres.in/api//users{id}", sirve para que la información del usuario sea actualizada en la base de datos.
 # 
 #
 :calling: A TENER EN CUENTA: :calling:
@@ -21,7 +21,7 @@ Con el fin de aplicar buenas prácticas se decidió utilizar los siguientes patr
 #
 :capital_abcd: Patrón ScreenPlay
 #
-Y además se hizo uso de :recycle: la programación orientada a objetos :recycle: en la estructura del código.
+Y además se hizo uso de :recycle: Programación orientada a objetos :recycle:
 #
 #
 
@@ -45,7 +45,7 @@ Para poder ejecutar el proyecto se requieren las siguientes especificaciones:
 
 :metro: EJECUCIÓN: :metro:
 
-Para ejecutar cualquier feature individual se requiere correr el Runners correspondiente de las clases de Java. En nuestro caso tenemos la siguiente relación:
+Se debe tener en cuenta que para ejecutar las pruebas que están en las features de manera individual se requiere correr el Runners correspondiente de las clases de Java. En nuestro caso tenemos la siguiente relación:
 #
 
 :soon: Client.java  => client.feature
