@@ -1,16 +1,16 @@
 :herb: DESCRIPCIÓN DEL PROYECTO: :herb:
 
-En este proyecto vamos a desarrollar pruebas en Karate de la siguiente API: "https://reqres.in/api/" :alien:
+En este proyecto se desarrollarán pruebas con Karate para probar los diversos Endpoints de la siguiente API: "https://reqres.in/api/" :alien:
 
-En el mismo se probarán los siguientes Endpoints con el fin de conseguir, enviar, actualizar y eliminar la información del usuario :
+Los Endpoints que se probarán son los siguientes:
 #
-:boom: Get: "https://reqres.in/api//users/2"
+:boom: Get: "https://reqres.in/api//users/2", sirve para traer la información del usuario que ha sido registrado.
 # 
-:boom: Post: "https://reqres.in/api//users"
+:boom: Post: "https://reqres.in/api//users", sirve para enviar la información del usuario a la base de datos.
 # 
-:boom: Delete: "https://reqres.in/api//users/{id}"
+:boom: Delete: "https://reqres.in/api//users/{id}", sirve para eliminar la información del usuario de la base de datos.
 # 
-:boom: Put: "https://reqres.in/api//users{id}"
+:boom: Put: "https://reqres.in/api//users{id}", sirve para actualizar la información del usuario en la base de datos.
 # 
 #
 :calling: A TENER EN CUENTA: :calling:
