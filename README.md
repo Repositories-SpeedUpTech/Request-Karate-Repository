@@ -40,11 +40,13 @@ Para poder ejecutar el proyecto se requieren las siguientes especificaciones:
 :heavy_check_mark: karate-junit5 con la última versión
 #
 :heavy_check_mark: cucumber-reporting con la última versión
-
+#
+#
 
 :metro: EJECUCIÓN: :metro:
 
 Para ejecutar cualquier feature individual se requiere correr el Runners correspondiente de las clases de Java, en nuestro caso tenemos la siguiente relación:
+#
 
 :soon: Client.java  => client.feature
 #
