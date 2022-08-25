@@ -3,7 +3,7 @@
 En este proyecto vamos a desarrollar pruebas en Karate de la siguiente API: "https://reqres.in/api/" :alien:
 
 Y se van a probar los siguientes Endpoints:
-
+#
 :boom: Get: "https://reqres.in/api//users/2"
 # 
 :boom: Post: "https://reqres.in/api//users"
@@ -28,7 +28,7 @@ Y además se hizo uso de :recycle: la programación orientada a objetos :recycle
 :violin: PRERREQUISITOS: :violin:
 
 Para poder ejecutar el proyecto se requieren las siguientes especificaciones:
-
+#
 :heavy_check_mark: Java con la versión de 1.8
 #
 :heavy_check_mark: Maven con la versión 3.6.0
