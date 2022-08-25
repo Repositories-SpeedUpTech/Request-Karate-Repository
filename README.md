@@ -12,7 +12,6 @@ Los Endpoints que se probarán son los siguientes:
 # 
 :boom: Put: "https://reqres.in/api//users{id}", sirve para que la información del usuario sea actualizada en la base de datos.
 # 
-#
 :calling: A TENER EN CUENTA: :calling:
 
 Con el fin de aplicar buenas prácticas se decidió utilizar los siguientes patrones de diseño:
@@ -22,7 +21,6 @@ Con el fin de aplicar buenas prácticas se decidió utilizar los siguientes patr
 :capital_abcd: Patrón ScreenPlay
 #
 Y además se hizo uso de :recycle: Programación orientada a objetos :recycle:
-#
 #
 
 :violin: PRERREQUISITOS: :violin:
