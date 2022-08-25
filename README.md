@@ -12,7 +12,7 @@ Por otro lado, vamos a probar los siguientes Endpoints:
 # 
 :scream_cat: Put: "/users{id}"
 # 
-
+#
 :calling: A TENER EN CUENTA: :calling:
 
 Con el fin de aplicar buenas prácticas se decidió utilizar los siguientes patrones de diseño:
@@ -22,6 +22,8 @@ Con el fin de aplicar buenas prácticas se decidió utilizar los siguientes patr
 :musical_score: Patrón ScreenPlay
 
 Y además se hizo uso de la programación orientada a objetos en la estructura del código.
+#
+#
 
 :violin: PRERREQUISITOS: :violin:
 
