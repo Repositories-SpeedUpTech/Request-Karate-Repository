@@ -1,14 +1,25 @@
-## TABLA DE CONTENIDO
-1. [DESCRIPCIÓN DEL PROYECTO :herb:](#descripción-del-proyecto)
+### AUTOR:
+
+Ismael Alexander Carvajal González
 
 ***
-# DESCRIPCIÓN DEL PROYECTO:    
 
-En este proyecto se realizarán pruebas con Karate para probar los diversos Endpoints de la siguiente API: "https://reqres.in/api/" :alien:
+## TABLA DE CONTENIDO
+1. [DESCRIPCIÓN DEL PROYECTO :herb:](#descripción-del-proyecto)
+2. [A TENER EN CUENTA :calling:](#a-tener-en-cuenta)
+3. [PRERREQUISITOS :violin:](#prerrequisitos)
+4. [EJECUCIÓN :metro:](#ejecución)
+5. [AUTOR :man:](#autor)
+
+***
+# DESCRIPCIÓN DEL PROYECTO: 
+_Karate Framework es la única herramienta de código abierto que combina API test-automation, mocks y testeo de rendimiento en un solo framework. La sintaxis BDD popularizada por Cucumber es language-neutral, y fácil incluso para los no-programadores. Además de potentes aserciones JSON & XML, puedes ejecutar tests en paralelo para mejorar la velocidad – elemento crítico para testeos HTTP API._
+
+En este proyecto aprovecharemos las ventajas que tiene este Framework para la automatización de pruebas y se utilizará para probar los diversos Endpoints de la siguiente API: "https://reqres.in/api/" :alien:
 
 Los **Endpoints** que se probarán son los siguientes:
 
-- _:boom: Get: "https://reqres.in/api//users/2", sirve para traer la información del usuario que ha sido registrado._
+- :boom: Get: "https://reqres.in/api//users/2", sirve para traer la información del usuario que ha sido registrado.
  
 - :boom: Post: "https://reqres.in/api//users", sirve para que la información del usuario sea enviada a la base de datos.
 
@@ -16,78 +27,54 @@ Los **Endpoints** que se probarán son los siguientes:
 
 - :boom: Put: "https://reqres.in/api//users{id}", sirve para que la información del usuario sea actualizada en la base de datos.
 
-:calling: A TENER EN CUENTA: :calling:
+***
+# A TENER EN CUENTA: 
 
-Con el fin de aplicar buenas prácticas se decidió utilizar los siguientes patrones de diseño:
+Con el fin de aplicar buenas prácticas se decidió utilizar:
 
 - :capital_abcd: Patrón Objet Model  
 
-- :capital_abcd: Patrón ScreenPlay
-
-Y además se hizo uso de :recycle: Programación orientada a objetos :recycle:
+- :recycle: Programación orientada a objetos
 #
 ***
-:violin: PRERREQUISITOS: :violin:
+# PRERREQUISITOS: 
 
 Para poder ejecutar el proyecto se requieren las siguientes especificaciones:
-* Java
-* Maven
-- Postman
-- Intellij
-#
-:heavy_check_mark: Java con la versión de 1.8
-#
-:heavy_check_mark: Maven con la versión 3.6.0
-#
-:heavy_check_mark: Karate con la versión 0.9.6
-#
-:heavy_check_mark: karate-apache con la última versión
-#
-:heavy_check_mark: karate-junit5 con la última versión
-#
-:heavy_check_mark: cucumber-reporting con la última versión
-#
-#
 
-:metro: EJECUCIÓN: :metro:
+|Herramienta| Versión| 
+|:--------------|:-------------:|
+|:heavy_check_mark: Java           |1.8            |
+|:heavy_check_mark: Maven           |3.6.0            |
+|:heavy_check_mark: Karate           |0.9.6            |
 
-Se debe tener en cuenta que para ejecutar las pruebas que están en las features de manera individual se requiere correr el Runners correspondiente de las clases de Java. En nuestro caso tenemos la siguiente relación:
-#
 
-:soon: Client.java  => client.feature
+***
+# EJECUCIÓN:
+
+Se debe tener en cuenta que para ejecutar las pruebas que están en las features de manera individual se requieren correr las clases correspondientes de Java. En nuestro caso tenemos la siguiente relación para su ejecución:
 #
-:soon: Create.java  => create.feature
-#
-:soon: Delete.java  => delete.feature
-#
-:soon: Update.java  => update.feature
+|Clase Java (Runner)| Features| 
+|:--------------|:-------------:|
+|:soon: Client.java |client.feature |
+|:soon: Create.java |create.feature |
+|:soon: Delete.java |delete.feature |
+|:soon: Update.java |update.feature |
+
 #
 Por otro lado, si queremos ejecutar todas las features de manera paralela ejecutamos la siguiente clase de Java:
 #
-:on: AllFeaturesTest.java
+|Clase Java (Runner)| Features| 
+|:--------------|:-------------:|
+|:bangbang: AllFeaturesTest.java| Todas las features |
 #
-Por último, si queremos ver los reportes desde el navegador seguimos los siguientes pasos:
-#
-:white_circle: Nos dirigimos a la carpeta Target y la desplegamos
-#
-:white_circle:  Desplegamos la carpeta "Cucumber-html-reports"
-#
-:white_circle: Dar click derecho al archivo "overview-features.html", seleccionar la opción "Open in", luego "Browser" y seleccionar el navegador de preferencia.
+Por último, para reproducir los reportes desde el navegador se deben seguir los siguientes pasos:
 
-#
+:one: Nos dirigimos a la carpeta Target y la desplegamos
 
-:man:AUTOR::man:
+:two:  Desplegamos la carpeta "Cucumber-html-reports"
 
-Ismael Alexander Carvajal González
+:three: Dar click derecho al archivo "overview-features.html", seleccionar la opción "Open in", luego "Browser" y seleccionar el navegador de preferencia.
+
+***
 
 
-|Encabezado 1| Encabezado 2| Encabezado 3
-|:--------------|:-------------:|:-------------:|
-|Java           |Intellij|Maven|
-
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
