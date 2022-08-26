@@ -1,5 +1,6 @@
-{
-  "name": "#string",
-  "job": "#string",
+{"data":
+{"name": "#string",
+  "job": "#string"
+},
   "updatedAt": "#string"
 }

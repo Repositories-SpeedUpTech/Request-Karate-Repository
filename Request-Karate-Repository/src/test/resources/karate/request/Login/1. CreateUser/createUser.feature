@@ -30,5 +30,5 @@ Feature: Service create user with POST
       | 0.578955544 |
       | "@##$"      |
       | "ABCDVB"    |
-      | "******"    |
+
 

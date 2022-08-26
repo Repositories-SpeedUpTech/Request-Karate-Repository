@@ -8,7 +8,7 @@ Feature: Service client PUT
     * url url
 
   Scenario: check the service PUT method
-    * def requestUpdate = {"name": "#(name)", "job": "#(job)"}
+    * def requestUpdate = read('classpath:karate/request/3. Update/requestPut.json')
     * def responsePut = read('classpath:karate/request/3. Update/responsePut.json')
 
     Given path 'users', 'id'
