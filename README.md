@@ -35,7 +35,7 @@ Con el fin de aplicar buenas prácticas se decidió utilizar:
 - :capital_abcd: Patrón Objet Model  
 
 - :recycle: Programación orientada a objetos
-#
+
 ***
 # PRERREQUISITOS: 
 
