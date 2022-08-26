@@ -9,7 +9,7 @@ Feature: Service create user with POST
 
   @ignoreScenario
   Scenario: check the service POST method
-    * def requestCreate = {"email": "#(email)","password": "#(password)"}
+    * def requestCreate = read('classpath:karate/request/Login/1. CreateUser/requestCreateUser.json')
     * def responsePost = read('classpath:karate/request/Login/1. CreateUser/responseCreateUser.json')
 
     Given path 'login'

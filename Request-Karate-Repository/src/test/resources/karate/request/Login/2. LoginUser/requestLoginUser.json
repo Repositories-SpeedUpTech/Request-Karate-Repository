@@ -1,0 +1,13 @@
+{
+  "data": {
+    "id": "1",
+    "name": "Oscar",
+    "year": "1996",
+    "color": "azul",
+    "pantone_value": "12457o"
+  },
+  "support": {
+    "url": "#string",
+    "text": "#string"
+  }
+}
